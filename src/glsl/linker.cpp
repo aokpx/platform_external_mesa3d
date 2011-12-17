@@ -63,6 +63,7 @@
  *
  * \author Ian Romanick <ian.d.romanick@intel.com>
  */
+#include <stddef.h> 
 #include <cstdlib>
 #include <cstdio>
 #include <cstdarg>
@@ -83,6 +84,8 @@ extern "C" {
 #include "ir_optimization.h"
 
 #include "main/shaderobj.h"
+
+
 
 /**
  * Visitor that determines whether or not a variable is ever written.
